@@ -1,0 +1,60 @@
+#FF.CO by Ilham
+Exploit
+The actual flag is in the hint.jpg file and the hint is in the flag.jpg file
+Both the flag.jpg and hint.jpg is 1920x1080 in resolution 
+Use the hex editior to change the resolution of the image.
+The place to change the hex code will be following the "FF C0" Marker identifier
+
+Flag: wtfctf{IHDR_h34d3r_w4s th3_k3y}
+
+
+#D66pSpac6 by Khushi Singh 
+Exploit
+You will find a zip file and according to hints given, you will see an encrypted text The text ends with == so it might be Base 64.Use an online tool or any script to decode Base64.You will get a text which makes no sense FTWMPE3XFKKAUATXYP You will also see that the Mist can be used as key so the most common cipher which requrire key is Vigenere Cipher In the hint, the range of the ALPHABET is given, change the range according to given condition (" @$3ABCDEFGHIJKLMNOPQRSTUVWXYZ")using a Python Script.
+Unzip the file which will require password n password is That3What$SheS@aid. 
+
+After Opening the Zip file, you will get a flac file Using Online tool audio steganography tool(DeepSound), as the name of challenge is deep space and its related to sound so deep sound makes sense.
+Extract the image from the audio file using the password given in hints You have to use google translate mobile app and translate text using mobile camera basically osint challenge once u get the password -BANGLADESH Open the image in a text file (Or use Strings command on the image) You will get the flag 
+
+Flag: wtfCTF{Theworld@isyours13}
+
+
+#238th Star by Pal
+Exploit
+Star_script.py
+Flag: wtfCTF{W34r3m15t}
+
+
+#Is that a language _ by Aditya
+Exploit
+Use the file command to identify the type of the file
+Rename the file (mv lang.tar lang.zip)
+unzip lang.zip
+file *
+tar -xvf lang.tar
+file * 
+mv car.pcap doggstyle.jpeg
+steghide --extract -sf car.jpeg -xf secret.txt
+cat secret.txt
+
+Flag  	wtfCTF{D0_Y0U_KN0W_AB0U7_E50LAN6_LANGU4G3}
+
+
+#spiderman_caught__ by Aditya
+Exploit
+Write-up(COMMANDS TO BE USED):-
+
+unzip spiderman.zip
+Rename the file (mv archive.zip archive.tar)
+Extract the tar file (tar -xvf archive.tar)
+mv .search search
+cat secret.txt
+// after reading copy the encrypted text and decrypt it using base 91
+// you will get the password for steghide tool --> marryjenson
+
+-> steghide --extract -sf spiderman.jpeg -xf text.txt
+
+after this you will get the url which will take you mine web page where you will have to dive deep
+means you will have to check HTML CSS and JS 
+you can also download the html file and use cat CTF.html | grep CTF
+wtfCTF{TH1S_I5_S0METH1NG_W3BBY}

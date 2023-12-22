@@ -1,0 +1,13 @@
+#Multiprime by OrkinKing
+Exploit
+Use facto.db to calculate the prime factors.Multiple prime RSA can decrypt messsages using the Chinese Remainder Theorem
+@@@@@@@@@@@@@@@@@@@@@@@@@2
+MultiPrime_Decrypt.py
+
+Flag: wtfctf{Rs4_MuL71Pr1m3_AtTAcK_15_fUn}
+
+>pixels by OrkinKing
+Exploit
+pixels_decrypt.py
+
+Flag: WTFCTF{Y0U_F0UND_M3_<3}

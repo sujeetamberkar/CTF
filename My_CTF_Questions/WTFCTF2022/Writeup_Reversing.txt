@@ -1,0 +1,13 @@
+#A tale of eggs by ShadowRnG
+Exploit
+There are a few ways to go about this challenge. If you choose to talk to the two people, you'll have to figure out their system of communication. All dialogues start with '0x' and this should be a clear indication that the string following '0x' is in hex. However, while Mr. Uni X's dialogues can directly be converted from hex to text, Mr. Nux I's dialogues need to be transformed first. The two of them use different byte ordering, Mr. Nux I being little endian and Mr. Uni X being big endian. For more on this, you can look up the [NUXI problem](https://nuxi.it/nuxijargon.html). If you successfully solve the challenge, you'll be rewarded with the code to the briefcase. Alternatively, you can simply [alter](./sol.py) the briefcase's code to bruteforce for the flag.
+
+Flag: wtfCTF{u53_4_b0m_6385}
+
+
+#Vault by ShadowRnG
+After running the [bot](./bot) a few times, it becomes evident that the passwords are always 3-lettered. Using this information, you can create a wordlist of all the possible combinations. With the help of a wordlist, you can either write a script to brute force the gpg key or use John the Ripper (first gpg2john and then crack the hash).
+- [List out all passwords](./lis.py)
+- [Wordlist](./wl.txt)
+
+Flag: wtfCTF{f0rc1n8_y0ur_w4y_1n_495}

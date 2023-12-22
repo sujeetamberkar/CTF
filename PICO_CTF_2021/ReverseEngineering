@@ -1,0 +1,20 @@
+Transformation
+  > Open the text file
+  > Convert the chinese unicode to ascii via hex to get the flag
+  > Resources used:
+                    https://pages.ucsd.edu/~dkjordan/resources/unicodemaker.html
+                    https://www.rapidtables.com/convert/number/hex-to-ascii.html
+  > FLAG: picoCTF{g00d_k1tty!_n1c3_k1tty!_9b3b7392}
+  
+Crackme-py
+  > Open the python script and decrypt [bezos_cc_secret = "A:4@r%uL`M-^M0c0AbcM-MFE0d_a3hgc3N"] using ROT-47 online decoder to get the flag
+  > Resources used: 
+                    https://www.dcode.fr/rot-47-cipher
+  > FLAG: picoCTF{1|\/|_4_p34|\|ut_502b984b}
+  
+Speeds and feeds
+  > https://play.picoctf.org/events/34/challenges?category=3&page=1&search=speed
+  >Run the command and get the gcode  
+  >nc mercury.picoctf.net 20301
+  >Use the gcode to get the flag written in the 3D image 
+  >Resources used: https://nraynaud.github.io/webgcode/ 

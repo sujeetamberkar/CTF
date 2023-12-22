@@ -1,0 +1,77 @@
+Install prozxy 
+Control Shift C
+Natas 0
+	Username natas0
+	Password natas0
+	http://natas0.natas.labs.overthewire.org
+
+	Go to the source code, You will find the flag 
+					gtVrDuiDfck831PqWsLEZy5gyDz1clto
+
+Natas 1 
+	Right click has been blocked 
+	Press control U 
+	Get the flag 
+					ZluruAthQk7Q2MqmDeTiUij2ZvWy2mBi
+Natas 2 
+	There is nothing on this page.
+	Go to the source 
+	See you will find a image 
+	There is a pixel 
+	Now check what else is in the folder 
+	WOW HAPPY Birthday you found the flag 
+					sJIJNW6ucpu6HPZ1ZAchaDtwd7oGrD14
+
+	User-agent: *
+	Disallow: /s3cr3t/				
+Natas 3 
+	Check source code (Control + U )
+	NOT EVEN GOOGLE CAN FIND IT 
+	Search engine can not find the text 
+	add robots.txt
+	Prevent information to go inisde google search algorithm 
+	Now go into the folder 
+				Z9tkRkWmpt9Qr7XrR5jWRkgOU901swEZ
+Natas 4 
+	Authorised user should only come from level 5 
+	When you click a link your web browser will embdeded from where are you comming from 
+
+	add  
+		Referer:http://natas5.natas.labs.overthewire.org/
+
+				iX6IOfmpN7AYOQGPwtn3fXpbaJVJcHfq
+Natas 5
+	Change the intercept server Responses 
+	Then forwaard it 
+	see the set-Cookie: logged it, genrally 0 means off so change it 1 it should work 
+				aGoY4q2Dc6MgDq4oL4YtoKtyAg9PeHa1
+
+Natas6 
+	Look at the source code
+	We have a folder,
+	http://natas6.natas.labs.overthewire.org/includes/secret.inc
+	include/secret.inc
+	not passing through php code and thus releaving secrets
+	Open the souce code of the new web page 
+		?
+		$secret = "FOEIUWGHFEEUHOFUOIU";
+		?
+
+		Pass the secret message to the inbox and het the flag 
+						7z3hEENjQtflzgnT29q7wAvMNfZdh0i9
+
+
+
+Natas 7
+	Check the home page and the about page
+	Notice the difference 
+	Now inspect elements 
+	You get /etc/natas_webpass/natas8
+	Pass that 
+	http://natas7.natas.labs.overthewire.org/index.php?page=/etc/natas_webpass/natas8
+						DBfUBfqQG69KvJvJ1iAbMoIpwSNQ9bWe
+
+	Or put 
+	see /etc/natas_webpass/natas8 will be in root directory so back and back kabhi to mil hi jayega
+	http://natas7.natas.labs.overthewire.org/index.php?page=../../../../../../../../../../../../../../../../../../../../etc/natas_webpass/natas8
+	../ Goes to the parent directory 

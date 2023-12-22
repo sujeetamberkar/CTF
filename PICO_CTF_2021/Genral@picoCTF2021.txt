@@ -1,0 +1,37 @@
+Obedient Cat
+  > Download and open the text file to get the flag directly
+  
+Python Wrangling
+  > Use the python script to decode a string, 
+  > Pass it as an argument  
+  > Use commands:
+  python "ende.py" -d "flag.txt.en" to decode the flag
+  > FLAG : picoCTF{4p0110_1n_7h3_h0us3_192ee2db}
+
+Wave a flag
+  >  Connect to PICOCTF Webshell
+  > Use command:
+  wget https://mercury.picoctf.net/static/beec4f433e5ee5bfcd71bba8d5863faf/warm
+  chmod +x warm
+  --help.
+  > FLAG: picoCTF{b1scu1ts_4nd_gr4vy_616f7182}
+
+Nice netcat...
+  >Run the shell command nc mercury.picoctf.net 7449
+  >You will get bunch of Ascii code
+  > Convert the Ascii code into text
+
+Tab, Tab, Attack
+  > Unzip the file using ‘unzip’ command
+  > Use, ls, ls-a, cat to see and read  hidden files 
+  >  ‘cat’ the file  fang-of-haynekhtnamet to get the flag.
+
+Magikarp Ground Mission
+  > Use the SSH key to connect 
+  > Use, ls, ls-a, cat to see and read the hidden files
+  > First you will get the 1st part of the flag 
+  > Check all directories, 
+	  > Using cd .. you will enter parent directory 
+	  > There you will find 3/3 Flag 
+	  >Go further, to find 2/3  Flag
+ 

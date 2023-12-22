@@ -1,0 +1,7 @@
+Wireshark doo dooo do doo...
+  > Use the following command:
+      >Try strings 
+       > ‘tcpflow -r filename.pcapng’
+       > ‘cat’ all the files created
+       > Read all the ascii files
+       > Decrypt using ROT-13 to get the flag
